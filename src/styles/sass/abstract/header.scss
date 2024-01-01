@@ -1,0 +1,30 @@
+header {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+
+    @media screen and (max-width: 48em) {
+        justify-content: center;   
+    }
+}
+
+.search {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+
+    color: #000;
+
+    transition: background .8s;
+}
+  
+.search::placeholder {
+    color: #6065b3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}

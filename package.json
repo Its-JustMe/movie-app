@@ -1,0 +1,11 @@
+{
+  "name": "movie-app",
+  "version": "1.0.0",
+  "description": "Um projeto de um site em que é possível realizar pesquisas de diversos filmes.",
+  "scripts": {
+    "watch-sass": "sass --watch ./src/styles/sass/global.scss ./src/styles/css/global.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

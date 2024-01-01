@@ -1,0 +1,23 @@
+// Declaração de variáveis globais
+$page-background: #07070b;
+$card-color: #101010;
+$text-color: #fff;
+$heading-size: 1em;
+
+// Mixins
+
+@mixin set-small-font {
+    font-size: small;
+}
+
+@mixin set-large-font {
+    font-size: large;
+}
+
+@mixin set-very-large-font {
+    font-size: x-large;
+}
+
+@mixin set-medium-font {
+    font-size: medium;
+}
